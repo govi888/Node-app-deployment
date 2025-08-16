@@ -79,7 +79,7 @@ This project demonstrates how to deploy a **Node.js application** using a **Jenk
 
 
 
-![Jenkins](./images/jenkins.png)
+![final](./images/final.png)
 
 Your pipeline (`Jenkinsfile`) automates the deployment:
 
