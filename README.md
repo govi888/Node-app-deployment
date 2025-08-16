@@ -46,6 +46,8 @@ This project demonstrates how to deploy a **Node.js application** using a **Jenk
 1. **AWS EC2 Instances**
    - EC2 #1 → Jenkins Master (Ubuntu).
    - EC2 #2 → Slave / Deployment Server (Ubuntu).
+   ![Master and Slave](./images/running ins.png)
+   ![Security Groups](./images/sg.png)
 
 2. **Install Dependencies**
    - On Jenkins Master:
