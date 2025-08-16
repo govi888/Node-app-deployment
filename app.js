@@ -4,6 +4,7 @@ const port = 3000;
 
 app.get('/', (req, res) => {
   res.send('Hello from Jenkins & PM2 deployed Node.js App!');
+  res.send('AUTOMODE');
 });
 
 app.listen(port, () => {
