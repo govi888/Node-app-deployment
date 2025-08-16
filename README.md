@@ -32,6 +32,7 @@ This project demonstrates how to deploy a **Node.js application** using a **Jenk
 - Defines the pipeline as code.
 - Automates cloning, uploading, installing, and starting the Node app.
 
+![Alt text](images/pic 1.png)
 ---
 
 ## ⚙️ Architecture
