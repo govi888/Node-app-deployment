@@ -32,6 +32,7 @@ This project demonstrates how to deploy a **Node.js application** using a **Jenk
 - Defines the pipeline as code.
 - Automates cloning, uploading, installing, and starting the Node app.
 
+
 ![CI/CD Flow](./images/pic1.png)
 
 
@@ -74,6 +75,7 @@ This project demonstrates how to deploy a **Node.js application** using a **Jenk
 ---
 
 ## 🚀 Jenkinsfile Pipeline
+![Jenkins](./images/jenkins.png)
 
 Your pipeline (`Jenkinsfile`) automates the deployment:
 
@@ -177,4 +179,5 @@ You should see node-app running.
 Access app in browser:
 
 http://<slave-ec2-public-ip>:3000
+![final](./images/final.png)
 
