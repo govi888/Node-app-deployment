@@ -128,4 +128,49 @@ pipeline {
         }
     }
 }
+🖥 Steps to Run
+
+Clone Repo in Jenkins
+
+Add GitHub repo: https://github.com/govi888/git-ci-cd.git
+
+Select pipeline script from SCM.
+
+Point to Jenkinsfile.
+
+Configure Webhook
+
+Go to GitHub → Repo → Settings → Webhooks.
+
+Add Jenkins webhook:
+
+http://<jenkins-master-ip>:8080/github-webhook/
+
+
+Build Pipeline
+
+Push code → GitHub triggers Jenkins.
+
+Jenkins executes pipeline:
+
+Clones repo.
+
+Uploads files to Slave EC2.
+
+Installs dependencies.
+
+Starts Node app using PM2.
+
+✅ Verification
+
+SSH into Slave EC2:
+
+pm2 list
+
+
+You should see node-app running.
+
+Access app in browser:
+
+http://<slave-ec2-public-ip>:3000
 
