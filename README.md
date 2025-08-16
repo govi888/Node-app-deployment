@@ -77,6 +77,10 @@ This project demonstrates how to deploy a **Node.js application** using a **Jenk
 ## 🚀 Jenkinsfile Pipeline
 ![Jenkins](./images/jenkins.png)
 
+
+
+![Jenkins](./images/jenkins.png)
+
 Your pipeline (`Jenkinsfile`) automates the deployment:
 
 ```groovy
@@ -179,5 +183,7 @@ You should see node-app running.
 Access app in browser:
 
 http://<slave-ec2-public-ip>:3000
-![final](./images/final.png)
+
+
+
 
