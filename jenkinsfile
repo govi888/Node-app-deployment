@@ -3,7 +3,7 @@ pipeline {
  
     environment {
         SERVER_IP      = '3.87.169.149'
-        SSH_CREDENTIAL = 'target-ec2-ssh'
+        SSH_CREDENTIAL = 'node-app'
         REPO_URL       = 'https://github.com/govi888/git-ci-cd.git'
         BRANCH         = 'main'
         REMOTE_USER    = 'ubuntu'
